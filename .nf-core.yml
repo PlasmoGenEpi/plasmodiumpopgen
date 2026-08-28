@@ -1,0 +1,16 @@
+repository_type: pipeline
+
+nf_core_version: 4.1.0
+
+lint: {}
+
+template:
+  org: nf-core
+  name: plasmodiumpopgen
+  description: Pipeline for generating population genetic metrics from Plasmodium
+    microhaplotype data.
+  author: Kathryn Murie, Alfred Hubbard
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  is_nfcore: true
